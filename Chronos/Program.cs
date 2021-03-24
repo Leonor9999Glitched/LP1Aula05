@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Threading;
 
 namespace Chronos
 {
@@ -21,7 +23,7 @@ namespace Chronos
             cron2.Stop();
 
             Console.WriteLine($"Tempo cron1 = {cron1.ElapsedMilliseconds}");
-            Console.WriteLine($"Tempo cron1 = {cron2.ElapsedMilliseconds}");
+            Console.WriteLine($"Tempo cron2 = {cron2.ElapsedMilliseconds}");
         }
     }
 }
